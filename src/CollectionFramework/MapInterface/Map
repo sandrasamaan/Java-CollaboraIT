@@ -1,0 +1,22 @@
+Map Interface:
+1. Key and value pair ...
+k = key
+v = value
+Map<k,v> nameMap = new HashMap<>();
+
+list of class that implemented Map interface
+1. Hashtable : Very similar to HashMap except it is ThreadSafe( It also doesn't allow null value as a key).
+2. LinkedHashMap : provide data in insertion order
+3. HashMap : makes no guarantee of iteration order(Faster but not thread safe)
+4. TreeMap : provide data in Ascending order Capital A-Z then small a-z (However it is much slower than HashMap)
+
+
+1. Create POJO class person
+    person - ID(Long), Name, Date(Date class), Address
+
+2. Ceate with HashMap and user person class as value ..
+    1. Add the data by calling constructor of person class
+    2. Remove
+    3. Clone
+    4. ContainKey
+    5. Loop Using key/value pair
